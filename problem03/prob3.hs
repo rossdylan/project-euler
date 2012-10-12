@@ -27,3 +27,5 @@ prime num
 -- Solution to Problem 3
 -- find the largest prime factor of that huge number
 prob3 = maximum $ filter prime $ smarterFactors 600851475143
+
+main = print $ maximum $ filter prime $ smarterFactors 600851475143
